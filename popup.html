@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL Shield</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h1 class="title">🛡️ URL Shield</h1>
+    <p class="subtitle">Your AI-powered guardian against malicious websites.</p>
+    
+    <label for="urlInput" class="label">Enter URL to Scan</label>
+    <div class="input-group">
+      <span class="icon">🔍</span>
+      <input type="text" id="urlInput" placeholder="https://example.com" readonly>
+    </div>
+    <p class="info">Auto-detected current tab’s URL</p>
+    
+    <button id="scanBtn" class="scan-btn">🔍 Scan URL</button>
+    <div id="result" class="result"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
